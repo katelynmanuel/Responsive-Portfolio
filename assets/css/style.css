@@ -190,3 +190,93 @@ footer {
     font-size: 12px;
 }
 
+@media screen and (max-width: 980px) {
+
+    nav {
+        margin-left: 15%;
+    }
+
+    .aboutMeBio {
+        width: 700px;
+        margin-left: 10%;
+        height: 500px;
+        margin-bottom: 10px;
+    }
+
+    .sectionContent {
+        width: 650px;
+        height: 800px;
+    }
+
+    section {
+        margin-left: 10%;
+        width: 700px;
+        height: 830px;
+    }
+
+    #contactForm {
+        width: 700px;
+        margin-left: 10%;
+        height: 550px;
+    }
+
+    .contactForm {
+        width: 680px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        margin-left: 0%;
+    }
+
+    .headerName {
+        margin-left: 10%;
+    }
+
+    .aboutMeBio {
+        width: 500px;
+        margin-left: 10%;
+        height: 600px;
+        margin-bottom: 10px;
+    }
+
+    .sectionContent {
+        width: 500px;
+    }
+
+    section {
+        margin-left: 10%;
+        width: 500px;
+        height: 1400px;
+    }
+
+    #contactForm {
+        width: 500px;
+        margin-left: 10%;
+        height: 550px;
+        margin-right: 10%;
+    }
+
+    .contactForm {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        margin-left: 0%;
+    }
+
+    .headerName {
+        margin-left: 0%;
+    }
+
+    .aboutMeBio {
+        width: 500px;
+        margin: 10px;
+        height: 600px;
+
+    }
+}
+
